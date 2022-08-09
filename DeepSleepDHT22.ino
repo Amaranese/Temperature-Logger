@@ -4,9 +4,9 @@
 
 #include <DNSServer.h>
 #include <ESP8266WebServer.h>
-#include <WiFiManager.h>        //https://github.com/tzapu/WiFiManager
+#include <WiFiManager.h>        
 
-#include <PietteTech_DHT.h>     //https://github.com/chaeplin/PietteTech_DHT-8266
+#include <PietteTech_DHT.h>     
 
 //DHT22 config
 #define DHTPIN 2 // what pin DHT is connected to
@@ -35,7 +35,7 @@ void dht_wrapper() {
 #endif
 
 
-//#include <SimpleTimer.h>          //http://playground.arduino.cc/Code/SimpleTimer  || https://github.com/jfturcot/SimpleTimer
+//#include <SimpleTimer.h>          
 
 char* topic = "nodes/battery/temp";
 char* hellotopic = "nodes/register";
